@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+bool isPotato(string bob);
+int main() {
+	cout << isPotato("potato");
+}
+bool isPotato(string bob) {
+	if (bob == "potato")
+		return true;
+	else
+		return false;
+
+
+}
