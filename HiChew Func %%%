@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+void HiChew();
+int main() {
+HiChew();
+}
+void HiChew() {
+	int num = rand() % 100;
+
+	if (num < 25) 
+		cout << "You got Kiwi!" << endl;
+	
+	else if (num < 50) 
+		cout << "You got Mango!" << endl;
+	
+	else if (num < 75) 
+		cout << "You got Pineapple!" << endl;
+	
+	else 
+		cout << "You got Dragonfruit!" << endl;
+	
+}
