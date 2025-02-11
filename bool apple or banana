@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+bool isAppleOrBanana(string fruit);
+int main() {
+	cout << isAppleOrBanana("apple");
+}
+bool isAppleOrBanana(string fruit) {
+	if (fruit == "apple")
+		return true;
+	else if (fruit == "banana")
+		return true;
+	else
+		return false;
+}
